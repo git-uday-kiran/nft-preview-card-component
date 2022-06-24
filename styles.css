@@ -1,0 +1,104 @@
+.attribution {
+  margin: auto;
+  font-size: 11px;
+  text-align: center;
+  color: gray;
+
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+.window {
+  width: 300px;
+  height: 495px;
+  margin: 100px auto 25px;
+  border: 2px solid hsl(216, 50%, 16%);
+  border-radius: 10px;
+  background-color: hsl(216, 50%, 16%);
+}
+
+.image {
+  width: 260px;
+  height: 260px;
+  margin: 20px auto;
+}
+
+#image {
+  width: 260px;
+  height: 260 px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.name {
+  color: hsl(0, 0%, 100%);
+  font-family: outfit, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.details {
+  margin: 20px;
+}
+
+.desc {
+  color: hsl(215, 51%, 70%);
+  font-family: outfit, sans-serif;
+  font-size: 15px;
+}
+
+.money {
+  color: hsl(178, 100%, 50%);
+  font-family: outfit, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  float: left;
+}
+
+.line {
+  color: hsl(215, 32%, 27%);
+}
+
+table {
+  margin: 0px;
+}
+
+.time {
+  float: right;
+  font-size: 14px;
+}
+
+img#ethereum {
+  height: 14px;
+}
+
+img#avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+}
+
+.bottom {
+  margin: 10px auto;
+  float: left;
+}
+
+.bottLine {
+  float: right;
+  line-height: 12px;
+  margin: 10px;
+}
+
+.name:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.image:hover img#image2 {
+  opacity: 1;
+}
