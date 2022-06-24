@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.google.com/specimen/Outfit">
+
+    <title>NFT preview card component</title>
+
+    <style>
+      .attribution {
+        margin: auto;
+        font-size: 11px;
+        text-align: center;
+        color: gray;
+
+      }
+
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+      body {
+        background-color: hsl(217, 54%, 11%);
+      }
+
+      .window {
+        width: 300px;
+        height: 495px;
+        margin: 100px auto 25px;
+        border: 2px solid hsl(216, 50%, 16%);
+        border-radius: 10px;
+        background-color: hsl(216, 50%, 16%);
+      }
+
+      .image {
+        width: 260px;
+        height: 260px;
+        margin: 20px auto;
+      }
+
+      #image {
+        width: 260px;
+        height: 260 px;
+        border-radius: 10px;
+        object-fit: contain;
+      }
+
+      .name {
+        color: hsl(0, 0%, 100%);
+        font-family: outfit, sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      .details {
+        margin: 20px;
+      }
+
+      .desc {
+        color: hsl(215, 51%, 70%);
+        font-family: outfit, sans-serif;
+        font-size: 15px;
+      }
+
+      .money {
+        color: hsl(178, 100%, 50%);
+        font-family: outfit, sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        float: left;
+      }
+
+      .line {
+        color: hsl(215, 32%, 27%);
+      }
+
+      table {
+        margin: 0px;
+      }
+
+      .time {
+        float: right;
+        font-size: 14px;
+      }
+
+      img#ethereum {
+        height: 14px;
+      }
+
+      img#avatar {
+        width: 32px;
+        height: 32px;
+        border-radius: 50px;
+      }
+
+      .bottom {
+        margin: 10px auto;
+        float: left;
+      }
+
+      .bottLine {
+        float: right;
+        line-height: 12px;
+        margin: 10px;
+      }
+
+      .name:hover {
+        color: hsl(178, 100%, 50%);
+      }
+
+      .image:hover img#image2 {
+        opacity: 1;
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <div class="window">
+
+      <div class="image">
+        <img src="images\image-equilibrium.jpg" id="image" /img>
+        <img src="images\icon-view.svg" id="image2" style="opacity: 0;">
+      </div>
+
+      <div class="details">
+        <p class="name"> Equilibrium #3429</p>
+        <p class="desc">Our Equilibrium collection promotes balance and calm.</p>
+
+        <div class="money">
+          <img src="images\icon-ethereum.svg" id="ethereum">
+          <span>0.041 ETH</span>
+        </div>
+
+        <div class="time desc">
+          <img src="images\icon-clock.svg">
+          <span>3 days left</span>
+        </div>
+        <br>
+        <hr class="line">
+
+        <div class="bottom">
+          <img src="images\profile.jpg" id="avatar">
+          <div class="bottLine">
+            <span class="desc" style="font-size: 13px;">Creation of</span>
+            <span class="name" style="font-size: 13px; font-weight: 300;">Uday Kiran</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Uday Kiran</a>.
+    </div>
+  </body>
+
+</html>
