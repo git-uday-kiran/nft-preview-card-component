@@ -1,5 +1,5 @@
-## QR CODE COMPONENT SOLUTION
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
+## NFT PREVIEW CARD COMPONENT SOLUTION
+This is a solution to the [nft preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/hub/nft-preview-card-component-using-html5-and-css-kOi62eEHXk).
 
 ## Table of contents
 - [Overview](#Overview)
@@ -16,7 +16,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [https://github.com/git-uday-kiran/qr-code-component](https://github.com/git-uday-kiran/qr-code-component)
+- Solution URL: [https://github.com/git-uday-kiran/nft-preview-card-component](https://github.com/git-uday-kiran/nft-preview-card-component)
+-Live URL: [https://git-uday-kiran.github.io/nft-preview-card-component/](https://git-uday-kiran.github.io/nft-preview-card-component/)
 
 ## My process
 
