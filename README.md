@@ -17,7 +17,7 @@ This is a solution to the [nft preview card component challenge on Frontend Ment
 ### Links
 
 - Solution URL: [https://github.com/git-uday-kiran/nft-preview-card-component](https://github.com/git-uday-kiran/nft-preview-card-component)
--Live URL: [https://git-uday-kiran.github.io/nft-preview-card-component/](https://git-uday-kiran.github.io/nft-preview-card-component/)
+- Live URL: [https://git-uday-kiran.github.io/nft-preview-card-component/](https://git-uday-kiran.github.io/nft-preview-card-component/)
 
 ## My process
 
